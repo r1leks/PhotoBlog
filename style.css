@@ -1,0 +1,40 @@
+:root{
+    --hover-color:#03A9F4;
+    --navigation-color:#7D7D7D;
+    --name-color:#B4AD9E;
+    --text-color:#626262;
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.header-link{
+    color: var(--navigation-color);
+    text-transform: uppercase;
+    
+}
+.header-link:hover,
+.header-link:focus{
+    color: var(--hover-color);
+}
+.card-name{
+    color: var(--name-color);
+    text-transform: uppercase;
+}
+.title,
+.card-title{
+    color: var(--text-color);
+}
+
+.card-text{
+    color: var(--text-color);
+}
+.button{
+    background-color: #fff;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
