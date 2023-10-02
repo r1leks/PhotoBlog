@@ -4,6 +4,29 @@
     --name-color:#B4AD9E;
     --text-color:#626262;
 }
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    width: 936px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 2px solid red;
+}
+
+.header {
+    background-color: #03A9F4;
+    padding-top: 71px;
+}
+
+.main{
+    background-color: blue;
+    padding-top: 92px;
+    padding-bottom: 66px;
+}
+
 ul{
     
     
@@ -43,7 +66,4 @@ a{
     color: var(--text-color);
     border: 1px solid var(--text-color);
     font-size: 14px;
-}
-body{
-    font-family: 'Playfair Display', serif;
 }
